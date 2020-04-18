@@ -242,21 +242,23 @@ footer {
   margin-top: 60px;
   border-top: 1px solid #dee2e6;
   padding: 50px 60px;
+  display: flex;
+  justify-content: center;
 }
-.home .walk .flex(center) .walk-text {
+.home .walk .walk-text {
   width: 50%;
 }
-.home .walk .flex(center) .walk-text h3 {
+.home .walk .walk-text h3 {
   margin-bottom: 10px;
 }
-.home .walk .flex(center) .walk-text p {
+.home .walk .walk-text p {
   margin-bottom: 26px;
 }
-.home .walk .flex(center) .walk-text .walk-img {
+.home .walk .walk-text .walk-img {
   width: 46%;
   margin-left: 4%;
 }
-.home .walk .flex(center) .walk-text .walk-img img {
+.home .walk .walk-text .walk-img img {
   width: 100%;
   height: auto;
   border-radius: 10px;
