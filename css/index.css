@@ -172,7 +172,6 @@ p {
   position: fixed;
   background-color: whitesmoke;
   opacity: 0.9;
-  border: 1px solid black;
   width: 100%;
   text-align: center;
 }
@@ -190,8 +189,7 @@ p {
   color: #23293b;
 }
 .intro {
-  padding-top: 10%;
-  text-align: center;
+  padding-top: 8.5%;
 }
 @media (max-width: 500px) {
   .intro {
@@ -207,6 +205,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .intro img {
+  border-radius: 20px;
 }
 .home .intro h2 {
   padding: 15px;
