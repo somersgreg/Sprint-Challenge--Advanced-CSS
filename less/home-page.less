@@ -45,8 +45,9 @@
     margin-top: 60px;
     border-top: 1px solid @main-border-color;
     padding: 50px 60px;
-    display: flex;
-    justify-content: center;
+    // display: flex;
+    // justify-content: center;
+    .flex(center);
 
     .walk-text {
       width: 50%;
@@ -59,9 +60,10 @@
         margin-bottom: 26px;
       }
 
-    //   .btn {
-    //   }
-    // }
+      .btn {
+        .button(@color,@color2)//working on this
+      }
+    }
 
     .walk-img {
       width: 46%;
@@ -74,4 +76,5 @@
       }
     }
   }
-}}// home
+}
+// home
